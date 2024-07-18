@@ -3,11 +3,6 @@ localStorage.setItem("portofolio-filter", "");
 let data_local;
 let list_filter;
 
-// prepare button filter
-// const parsing_list_filter = (data) => {
-//     let all categor
-// };
-
 // portofolio filter function
 const parsing_portofolio = (data) => {
   let element = document.getElementById("portofolio-container");
@@ -32,7 +27,7 @@ const parsing_portofolio = (data) => {
     for (let index = 0; index < filteredItem.length; index++) {
       portofolio += `
            <div class="col">
-                <div class="card border-warning">
+                <div class="card border-warning border-3">
                 <img src="${filteredItem[index].imageUrl}" class="card-img-top" alt="portofolio-image">
                 <div class="card-body">
                     <h5 class="card-title">${filteredItem[index].title}</h5>
