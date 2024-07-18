@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Januari",
+      "total": "43"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Februari",
+      "total": "33"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Maret",
+      "total": "54"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "April",
+      "total": "12"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Mei",
+      "total": "22"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Juni",
+      "total": "54"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Juli",
+      "total": "34"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Agustus",
+      "total": "63"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "September",
+      "total": "23"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Oktober",
+      "total": "55"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "November",
+      "total": "23"
+    },
+    {
+      "icon": "fa-solid fa-circle-arrow-right",
+      "month": "Desember",
+      "total": "4"
+    }
+  ]
+}

@@ -72,97 +72,60 @@
       <div class="container-flud bg-warning py-4">
         <div class="container">
           <div class="d-flex">
-            <h1 class="ps-4 pe-5 py-2 bg-dark text-light fs-2">ABOUT US</h1>
+            <h1 class="ps-4 pe-5 py-2 bg-dark text-light fs-2">BLOG</h1>
           </div>
         </div>
       </div>
 
       <!-- start of section 1 -->
-      <div class="container py-5">
+      <div class="container-fluid pt-5">
         <div class="row">
-          <div class="col-12 mb-3 mb-md-0 col-md-4 d-flex align-items-center">
-            <img
-              src="https://picsum.photos/id/237/500/300"
-              width="100%"
-              class="rounded"
-              alt="gambar"
-            />
-          </div>
-          <div class="col-12 col-md-8">
-            <h1 class="mb-2 fw-bolder">WELCOME TO OUR TEAM</h1>
-            <b
-              >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-              diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam erat volutpat. Ut wisi enim ad minim veniam</b
-            >
-            <div class="row pt-2">
-              <div class="col-12 col-md-6">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie
-                  consequat,adipiscing elit, sed diam nonummy nibh euismod
-                  tincidunt ut laoreet dolore magna aliquam erat.
-                </p>
+          <div class="col-9"></div>
+          <div class="col-12 col-md-3">
+            <!-- search form -->
+            <div class="row p-4 bg-dark mb-3">
+              <div class="input-group rounded-circle">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                  aria-label="search"
+                  aria-describedby="search-form"
+                />
+                <span class="input-group-text" id="search-form"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
               </div>
-              <div class="col-12 col-md-6">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie
-                  consequat,adipiscing elit, sed diam nonummy nibh euismod
-                  tincidunt ut laoreet dolore magna aliquam erat.
-                </p>
-              </div>
+            </div>
+
+            <!-- categories -->
+            <div class="row bg-dark p-4 text-warning mb-3">
+              <h5>CATEGORIES</h5>
+              <div class="row" id="categories-container"></div>
+            </div>
+
+            <!-- archive -->
+            <div class="row bg-dark p-4 text-warning mb-3">
+              <h5>ARCHIVE</h5>
+              <div class="row" id="archieve-container"></div>
+            </div>
+
+            <!-- Popular Post -->
+            <div class="row bg-dark p-4 text-warning mb-3">
+              <h5>POPULAR POST</h5>
+              <div class="row" id="popular-container"></div>
+            </div>
+
+            <!-- tags -->
+            <!-- archive -->
+            <div class="row bg-dark p-4 text-warning mb-3">
+              <h5>TAGS</h5>
+              <div id="tags-container"></div>
             </div>
           </div>
         </div>
       </div>
       <!-- end  of section 1 -->
-
-      <!-- start of section 2 -->
-      <div class="container mb-5">
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <h5 class="px-4 py-2 bg-dark text-light d-flex">OUR SKILLS</h5>
-          </div>
-        </div>
-        <div class="row text-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
-          </p>
-        </div>
-        <div class="row row-cols-2" id="skills-container"></div>
-      </div>
-
-      <!-- end  of section 2 -->
-      <div class="container">
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <h5 class="px-4 py-2 bg-dark text-light d-flex">OUR TEAM</h5>
-          </div>
-        </div>
-        <div class="row text-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
-          </p>
-        </div>
-        <div class="row row-cols-1 row-cols-md-4" id="teams-container"></div>
-      </div>
-      <!-- start of section 3 -->
-
-      <!-- end  of section 3 -->
-
       <!-- end of content -->
 
       <!-- start of footer -->
@@ -303,7 +266,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/aboutus.js"></script>
+    <script src="./js/blog.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
