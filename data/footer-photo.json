@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=1"
+    },
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=2"
+    },
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=3"
+    },
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=4"
+    },
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=5"
+    },
+    {
+      "imgUrl": "https://picsum.photos/100/100?random=6"
+    }
+  ]
+}

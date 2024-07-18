@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "text": "Home",
+      "url": "./todo.html",
+      "status": "active"
+    },
+    {
+      "text": "Portofolio",
+      "url": "./todo.html",
+      "status": "active"
+    },
+    {
+      "text": "Blog",
+      "url": "./todo.html",
+      "status": "active"
+    },
+    {
+      "text": "About Us",
+      "url": "./todo.html",
+      "status": "active"
+    },
+    {
+      "text": "Contact",
+      "url": "./todo.html",
+      "status": "active"
+    },
+    {
+      "text": "ToDo",
+      "url": "./todo.html",
+      "status": "active"
+    }
+  ]
+}

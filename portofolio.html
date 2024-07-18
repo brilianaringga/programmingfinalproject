@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <section class="vh-100">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a href="#" class="navbar-brand border-top border-bottom border-success border-3 px-2" id="brand-logo">
+            LOREM Corps
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item active-bar">
+                <a class="nav-link active" href="#">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./todo.html">ToDo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- start of content -->
+
+      <div class="container-flud bg-warning py-5">
+        <div class="container">
+            <span class="px-2 py-3 bg-dark text-light fs-2">
+                PORTOFOLIO
+            </span>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col text-center py-5 px-3 px-md-0">
+            <h2>WE CREATIVE QUALITY DESIGNS.</h2>
+            <h5>We Specialize in Web Design / Development and Graphic Design</h5>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <div class="pb-3" id="filter-buttons-container">
+            <button class="btn btn-success" type="submit" onclick="filter_portofolio('All')">All</button>
+            <button class="btn btn-outline-success" type="submit" onclick="filter_portofolio('Website')">Website</button>
+            <button class="btn btn-outline-success" type="submit" onclick="filter_portofolio('Logo')">Logo</button>
+            <button class="btn btn-outline-success" type="submit" onclick="filter_portofolio('UI Kit')">UI Kit</button>
+            <button class="btn btn-outline-success" type="submit" onclick="filter_portofolio('Photo')">Photo</button>
+            <button class="btn btn-outline-success" type="submit" onclick="filter_portofolio('AppDesign')">App Design</button>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="portofolio-container">
+            
+        </div>
+      </div>
+    
+      <!-- end of content -->
+
+      <!-- start of footer -->
+      <div class="footer">
+        <div class="section1 py-3 py-md-5 bg-dark-subtle">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-4 container">
+                <div class="footer-about-us mb-3">
+                  <h3>About Us</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                 
+                  <a href="#">
+                    <button class="p-2">Learn More</button>
+                  </a>
+                </div>
+
+                <div class="footer-photo-stream mb-3">
+                  <h3>Photo Stream</h3>
+                  <div class="container">
+                    <div class="row" id="photo-container">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 container">
+                <!-- start of tweet container -->
+                <div class="row">
+                  <h3>Latest Tweets</h3>
+                  <div class="tweet-container" id="tweet-container">
+
+                  </div>
+                </div>
+                <!-- end of tweet container -->
+
+                <!-- start of social media icons -->
+                <div class="row">
+                  <h3>Social Connecting</h3>
+                  <div class="text-center text-md-start socmed-container">
+                    <i class="fa-brands fa-xl fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-xl fa-square-google-plus"></i>
+                    <i class="fa-brands fa-xl fa-linkedin"></i>
+                    <i class="fa-brands fa-xl fa-square-facebook"></i>
+                  </div>
+                </div>
+
+                <!-- end of social media icons -->
+              </div>
+
+              <div class="col-12 col-md-4 container">
+                <!-- start of contact info -->
+                <div class="contact-info-container">
+                  <h3>Contact Info</h3>
+                  <div class="contact-info-item row">
+                    <div class="col-1">
+                      <i class="fa-solid fa-xl fa-location-dot"></i>
+                    </div>
+                    <div class="col-11">
+                      <span>
+                        Lorem ipsum dolor sit amet,consectetuer adipiscing elit,
+                        sed diam nonummy nibh web design
+                      </span>
+                    </div>
+                  </div>
+                  <div class="contact-info-item row">
+                    <div class="col-1">
+                      <i class="fa-brands fa-xl fa-square-whatsapp"></i>
+                    </div>
+                    <div class="col-11">
+                      <span>Phone:</span><br />
+                      <span>+1 800 258 2689</span><br />
+                      <span>+1 800 258 2689</span>
+                    </div>
+                  </div>
+                  <div class="contact-info-item row">
+                    <div class="col-1">
+                      <i class="fa-solid fa-xl fa-envelope"></i>
+                    </div>
+                    <div class="col-11">
+                      <span>
+                        Email: <a href="">info(at)brilian.com</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of contact info -->
+
+                <!-- start of follow us -->
+                <div class="follow-us-container">
+                  <h3>Follow Us</h3>
+                  <span
+                    >Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod</span
+                  >
+                </div>
+                <!-- end of follow us -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2 py-4 bg-dark text-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 text-center text-md-start">
+                @2024 Brilian Aringga Prabowo
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="row text-center">
+                  <div class="col-12 col-md">
+                    <a href="" class="nav-item">Home</a>
+                  </div>
+                  <div class="col-12 col-md">
+                    <a href="">Portofolio</a>
+                  </div>
+                  <div class="col-12 col-md">
+                    <a href="">Blog</a>
+                  </div>
+                  <div class="col-12 col-md">
+                    <a href="">About Us</a>
+                  </div>
+                  <div class="col-12 col-md">
+                    <a href="">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of footer -->
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/portofolio.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
