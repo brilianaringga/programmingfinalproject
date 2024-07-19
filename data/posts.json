@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "type": "ads",
+      "imageUrl": "",
+      "text": "Lorem ipsum dolor sit consectetuer adipiscing elit, sed diam",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=1",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=2",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=3",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=4",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=5",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=6",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=7",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    },
+    {
+      "type": "blog",
+      "imageUrl": "https://picsum.photos/300/200?random=8",
+      "title": "HENDRERIT IN VULPUTATE VELIT ESSE MOLESTIE CONSEQUAT",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "likes": "15",
+      "comments": "6",
+      "date": " Dec. 28, 2013",
+      "author": "adipiscing"
+    }
+  ]
+}
